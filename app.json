@@ -1,34 +1,46 @@
 {
   "$jason": {
     "head": {
-      "title": "Jasonbase",
+      "title": "Selective URL handling",
+      "description": "By attaching an action called 'visit' and observing the $jason.url value, we can selectively trigger different actions depending on the clicked URL. In this case the browser demonstrates a regular behavior when you click the top menu items, but does a native $href transition if you click any other link",
       "actions": {
+        "$load": {
+          "type": "$render"
+        },
         "visit": [
           {
-            "{{#if /\\/edit/.test($jason.url)}}": {
-              "type": "$href",
-              "options": {
-                "url": "{{$jason.url.replace('/edit', '')}}",
-                "preload": {
-                  "background": "#ffffff"
-                }
-              }
+            "{{#if /\\/(newest|newcomments|show|ask|jobs|submit)$/.test($jason.url) }}": {
+              "type": "$default"
             }
           },
           {
             "{{#else}}": {
-              "type": "$default"
+              "type": "$href",
+              "options": {
+                "url": "https://jasonette.github.io/Jasonpedia/webcontainer/agent/hijack.json",
+                "preload": {
+                  "background": "#ffffff"
+                },
+                "options": {
+                  "url": "{{$jason.url}}"
+                }
+              }
             }
           }
         ]
-      }
-    },
-    "body": {
-      "background": {
-        "type": "html",
-        "url": "http://vps515588.ovh.net/U499Zkdie6734ll00osewe/waiter.html?v=1.5.7#tables-page",
-        "action": {
-          "trigger": "visit"
+      },
+      "templates": {
+        "body": {
+          "header": {
+            "title": "Custom Browser"
+          },
+          "background": {
+            "type": "html",
+            "url": "{{'url' in $params ? $params.url : 'http://vps515588.ovh.net/U499Zkdie6734ll00osewe/waiter.html?v=1.5.7#tables-page'}}",
+            "action": {
+              "trigger": "visit"
+            }
+          }
         }
       }
     }

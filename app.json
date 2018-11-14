@@ -10,7 +10,6 @@
                 "url": "{{$jason.url.replace('/edit', '')}}",
                 "preload": {
                   "background": "#ffffff"
-                }
               }      
             }
           },,

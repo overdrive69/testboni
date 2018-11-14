@@ -1,18 +1,19 @@
-{
-  "$jason": {
+ "$jason": {
     "head": {
       "title": "Jasonbase",
-              }
-            }
-          },
+      "actions": {
+        "visit": [
           {
-            "{{#else}}": {
-              "type": "$default"
+            "{{#if /\\/edit/.test($jason.url)}}": {
+              "type": "$href",
+              "options": {
+                "url": "{{$jason.url.replace('/edit', '')}}",
+                "preload": {
+                  "background": "#ffffff"
+                }
+              }      
             }
-          }
-        ]
-      }
-    },
+          },,
     "body": {
       "background": {
         "type": "html",

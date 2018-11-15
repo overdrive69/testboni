@@ -1,0 +1,101 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Transition Error",
+      "actions": {
+        "$show": {
+          "type": "$render"
+        },
+        "$pull": {
+          "type": "$reload"
+        },
+        "push_next_view": {
+          "type": "$href",
+          "options": {
+            "url": "https://jasonbase.com/things/Bw63.json",
+            "transition": "push",
+            "loading": "true",
+            "options": {
+              "data": "yo"
+            }
+          }
+        },
+        "fullscreen_next_view": {
+          "type": "$href",
+          "options": {
+            "url": "https://jasonbase.com/things/Bw63.json",
+            "transition": "fullscreen",
+            "loading": "true",
+            "options": {
+              "data": "yo"
+            }
+          }
+        }
+      },
+      "templates": {
+        "body": {
+          "header": {
+            "title": "Test View",
+            "style": {
+              "size": "18",
+              "font": "Helvetica",
+              "background": "#555962",
+              "color": "#ffffff"
+            }
+          },
+          "sections": [
+            {
+              "items": [
+                {
+                  "type": "button",
+                  "text": "Next View (push)",
+                  "action": {
+                    "trigger": "push_next_view"
+                  }
+                },
+                {
+                  "type": "button",
+                  "text": "Next View (fullscreen)",
+                  "action": {
+                    "trigger": "fullscreen_next_view"
+                  }
+                }
+              ]
+            }
+          ],
+          "footer": {
+            "tabs": {
+              "style": {
+                "background": "#cecece",
+                "color:disabled": "#939393",
+                "color": "#000000"
+              },
+              "items": [
+                {
+                  "text": "Tab 1",
+                  "href": {
+                    "url": "https://jasonbase.com/things/LEPB.json"
+                  },
+                  "image": "https://maxcdn.icons8.com/iOS7/PNG/100/Very_Basic/home_filled-100.png",
+                  "style": {
+                    "height": "20"
+                  }
+                },
+                {
+                  "text": "Tab 2",
+                  "href": {
+                    "url": ""
+                  },
+                  "image": "https://maxcdn.icons8.com/iOS7/PNG/100/Very_Basic/home_filled-100.png",
+                  "style": {
+                    "height": "20"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

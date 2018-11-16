@@ -28,73 +28,16 @@
         }
       }
     },
-    "body": {
-      "header": {
-        "title": "Hello World",
-        "menu": {
-          "text": "View JSON",
-          "href": {
-            "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/view/footer/tabs.json",
-            "view": "web"
-          }
+"body": {
+      "background": {
+        "type": "html",
+        "url": "http://vps515588.ovh.net/U499Zkdie6734ll00osewe/waiter.html?v=1.5.7#tables-page",
+        "action": {
+          "trigger": "visit"
         }
-      },
-      "background": "#3a2a8a",
-      "sections": [
-        {
-          "items": [
-            {
-              "type": "label",
-              "text": "Fullscreen transition",
-              "class": "bold",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/action/audio/vaultboy/index.json",
-                "transition": "fullscreen"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Next",
-              "class": "bold",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Next",
-              "class": "bold",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Next",
-              "class": "bold",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Next",
-              "class": "bold",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Next",
-              "class": "bold",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
-              }
-            }
-          ]
-        }
-      ],
+       }
+     
+     
       "footer": {
         "tabs": {
           "style": {

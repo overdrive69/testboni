@@ -26,6 +26,24 @@
             "description": "{{$get.message}}"
           }
         }
+         "visit": [
+           {
+             "{{#if /\\/edit/.test($jason.url)}}": {
+               "type": "$href",
+               "options": {
+                 "url": "{{$jason.url.replace('/edit', '')}}",
+                 "preload": {
+                   "background": "#ffffff"
+                 }
+               }
+             }
+           },
+           {
+             "{{#else}}": {
+               "type": "$default"
+             }
+           }
+         ]
       }
     },
     "body": {

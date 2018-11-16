@@ -1,53 +1,123 @@
 {
   "$jason": {
-    "head": {      
-      "data": {
-        "posts": [{
-         }]
+    "head": {
+      "title": "Tabs Footer",
+      "styles": {
+        "bold": {
+          "font": "HelveticaNeue-CondensedBold",
+          "padding": "10",
+          "color": "#fd9040",
+          "size": "45"
+        },
+        "normal": {
+          "font": "HelveticaNeue",
+          "size": "12",
+          "color": "#ebebeb"
+        }
       },
-
-      "templates": {
-        "body": {
-
-          "footer": {
-            "tabs": {
-              "style": {
-                "background": "rgba(255,255,255,0.8)",
-                "color": "#000000"
-              },
-              "items": [{
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/home.png",
-                "style": {
-                  "height": "21"
-                },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json"
-              }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/search.png",
-                "style": {
-                  "height": "21"
-                },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/search.json"
-              }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/camera.png",
-                "style": {
-                  "height": "21"
-                },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/camera.json"
-              }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/heart.png",
-                "style": {
-                  "height": "21"
-                },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/heart.json"
-              }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/profile.png",
-                "style": {
-                  "height": "21"
-                },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/profile.json"
-              }]
-            }
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        },
+        "send": {
+          "type": "$util.alert",
+          "options": {
+            "title": "Message",
+            "description": "{{$get.message}}"
           }
+        }
+      }
+    },
+    "body": {
+      "header": {
+        "title": "Hello World",
+        "menu": {
+          "text": "View JSON",
+          "href": {
+            "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/view/footer/tabs.json",
+            "view": "web"
+          }
+        }
+      },
+      "background": "#3a2a8a",
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "label",
+              "text": "Fullscreen transition",
+              "class": "bold",
+              "href": {
+                "url": "https://jasonette.github.io/Jasonpedia/action/audio/vaultboy/index.json",
+                "transition": "fullscreen"
+              }
+            },
+            {
+              "type": "label",
+              "text": "Next",
+              "class": "bold",
+              "href": {
+                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
+              }
+            },
+            {
+              "type": "label",
+              "text": "Next",
+              "class": "bold",
+              "href": {
+                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
+              }
+            },
+            {
+              "type": "label",
+              "text": "Next",
+              "class": "bold",
+              "href": {
+                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
+              }
+            },
+            {
+              "type": "label",
+              "text": "Next",
+              "class": "bold",
+              "href": {
+                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
+              }
+            },
+            {
+              "type": "label",
+              "text": "Next",
+              "class": "bold",
+              "href": {
+                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
+              }
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "tabs": {
+          "style": {
+            "background": "#ffffff"
+          },
+          "items": [
+            {
+              "image": "https://png.icons8.com/ios/100/000000/anonymous-mask.png",
+              "text": "Top Secret",
+              "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
+            },
+            {
+              "image": "https://s3-us-west-2.amazonaws.com/fm.ethan.jason/info%402x.png",
+              "text": "Info",
+              "badge": "2",
+              "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
+            },
+            {
+              "image": "https://s3-us-west-2.amazonaws.com/fm.ethan.jason/apps%402x.png",
+              "text": "Collection",
+              "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
+            }
+          ]
         }
       }
     }

@@ -7,21 +7,15 @@
         "$foreground": {
           "type": "$reload"
         },
-        "send": {
-          "type": "$util.alert",
-          "options": {
-            "title": "Message",
-            "description": "{{$get.message}}"
-          }
-        }
+
     
       }
     },
-    "body": {
-   
     
-      
-      
+    
+    
+    
+    "body": {    
       
       "footer": {
         "tabs": {

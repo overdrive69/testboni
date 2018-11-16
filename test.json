@@ -2,19 +2,7 @@
   "$jason": {
     "head": {
       "title": "Tabs Footer",
-      "styles": {
-        "bold": {
-          "font": "HelveticaNeue-CondensedBold",
-          "padding": "10",
-          "color": "#61c5b2",
-          "size": "45"
-        },
-        "normal": {
-          "font": "HelveticaNeue",
-          "size": "12",
-          "color": "#61c5b2"
-        }
-      },
+  
       "actions": {
         "$foreground": {
           "type": "$reload"

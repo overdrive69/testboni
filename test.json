@@ -1,161 +1,56 @@
 {
   "$jason": {
     "head": {
-      "title": "Jasopedia",
+      "title": "TEMP - menu color not working in iOS",
       "styles": {
-        "bold": {
-          "font": "HelveticaNeue-CondensedBold",
-          "size": "15"
-        },
-        "padded": {
-          "padding": "10"
-        },
-        "normal": {
-          "font": "HelveticaNeue",
-          "size": "12"
+        "address_button": {
+          "color": "#3232FF",
+          "align": "center",
+          "size": "15",
+          "padding": "4",
+          "corner_radius": "5"
         }
       },
       "actions": {
-        "$foreground": {
+        "$load": {
+          "type": "$render"
+        },
+        "$pull": {
           "type": "$reload"
         }
-      }
-    },
-    "body": {
-      "header": {
-        "title": "Jasonpedia",
-        "style": {
-          "background": "#8bb92d",
-          "color": "#ffffff",
-          "font": "AvenirNext-Bold",
-          "size": "14"
-        },
-        "menu": {
-          "text": "View JSON",
-          "href": {
-            "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/demo.json",
-            "view": "web"
-          }
-        }
       },
-      "sections": [
-        {
-          "items": [
-            {
-              "type": "vertical",
+      "templates": {
+        "body": {
+          "header": {
+            "style": {
+              "background": "#ac7dd4"
+            },
+            "title": {
+              "type": "label",
+              "text": "Menu should be green ==>"
+            },
+            "menu": {
+              "image": "https://cdn3.iconfinder.com/data/icons/buttons/512/Icon_11-512.png",
               "style": {
-                "background": "rgba(14,122,254,0.1)",
-                "padding": "20"
+                "color": "#00ff00"
               },
-              "href": {
-                "url": "mailto:?subject=Documentation&body=https://jasonette.github.io/documentation",
-                "view": "app"
-              },
-              "components": [
+              "action": {
+                "type": "$reload"
+              }
+            }
+          },
+          "sections": [
+            {
+              "items": [
                 {
                   "type": "label",
-                  "text": "Send yourself Documentation",
-                  "class": "bold",
-                  "style": {
-                    "color": "rgb(14,122,254)"
-                  }
+                  "text": "Hi"
                 }
               ]
             }
           ]
-        },
-        {
-          "header": {
-            "type": "vertical",
-            "style": {
-              "background": "#ebebeb"
-            },
-            "components": [{
-              "type": "label",
-              "class": "bold",
-              "text": "Tutorial"
-            }, {
-              "type": "label",
-              "class": "normal",
-              "text": "Simple demos to demonstrate how each module works. Also used for testing purposes."
-            }]
-          },
-          "items": [
-            {
-              "type": "label",
-              "text": "Core",
-              "class": "bold padded",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/core/index.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "View",
-              "class": "bold padded",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/view/index.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Action",
-              "class": "bold padded",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/action/index.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Template",
-              "class": "bold padded",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/template/index.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Web Container",
-              "class": "bold padded",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/webcontainer/index.json"
-              }
-            }
-          ]
-        },
-        {
-          "header": {
-            "type": "vertical",
-            "style": {
-              "background": "#ebebeb"
-            },
-            "components": [{
-              "type": "label",
-              "class": "bold",
-              "text": "Showcase"
-            }, {
-              "type": "label",
-              "class": "normal",
-              "text": "Wrote a cool/useful JSON markup? Send a pull request to https://github.com/Jasonette/Jasonpedia"
-            }]
-          },
-          "items": [{
-            "type": "label",
-            "text": "Instagram",
-            "href": {
-              "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json",
-              "transition": "modal"
-            }
-          }, {
-            "type": "label",
-            "text": "Twitter",
-            "href": {
-              "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json",
-              "transition": "modal"
-            }
-          }]
         }
-      ]
+      }
     }
   }
 }

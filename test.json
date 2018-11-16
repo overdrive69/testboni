@@ -1,54 +1,23 @@
 {
   "$jason": {
-    "head": {
-      "title": "TEMP - menu color not working in iOS",
-      "styles": {
-        "address_button": {
-          "color": "#3232FF",
-          "align": "center",
-          "size": "15",
-          "padding": "4",
-          "corner_radius": "5"
-        }
-      },
-      "actions": {
-        "$load": {
-          "type": "$render"
-        },
-        "$pull": {
-          "type": "$reload"
-        }
-      },
-      "templates": {
-        "body": {
-          "header": {
-            "style": {
-              "background": "#ac7dd4"
-            },
-            "title": {
-              "type": "label",
-              "text": "Menu should be green ==>"
-            },
-            "menu": {
-              "image": "https://cdn3.iconfinder.com/data/icons/buttons/512/Icon_11-512.png",
-              "style": {
-                "color": "#00ff00"
-              },
-              "action": {
-                "type": "$reload"
-              }
+    "body": {
+      "footer": {
+        "tabs": {
+          "items": [{
+            "text": "Tab 1",
+            "url": "https://jasonbase.com/things/3fn.json"
+          }, {
+            "text": "Tab 2",
+            "action": {
+              "type": "$media.camera"
             }
-          },
-          "sections": [
-            {
-              "items": [
-                {
-                  "type": "label",
-                  "text": "Hi"
-                }
-              ]
+          }, {
+            "text": "Tab 3",
+            "href": {
+              "url": "https://www.google.com",
+              "view": "web"
             }
-          ]
+          }]
         }
       }
     }

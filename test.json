@@ -52,38 +52,7 @@
                 "transition": "fullscreen"
               }
             },
-            {
-              "type": "label",
-              "text": "Next",
-              "class": "bold",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Next",
-              "class": "bold",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Next",
-              "class": "bold",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Next",
-              "class": "bold",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
-              }
-            },
+
 
           ]
         }

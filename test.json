@@ -29,16 +29,7 @@
       }
     },
     "body": {
-      "header": {
-        "title": "Hello World",
-        "menu": {
-          "text": "View JSON",
-          "href": {
-            "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/view/footer/tabs.json",
-            "view": "web"
-          }
-        }
-      },
+      
       "background": "#ffffff",
       
       "footer": {

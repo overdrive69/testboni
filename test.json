@@ -1,11 +1,7 @@
 {
   "$jason": {
     "head": {
-      "data": {
-        "posts": [{
 
-        }]
-      },
       "templates": {
         "body": {
 

@@ -6,7 +6,7 @@
         "bold": {
           "font": "HelveticaNeue-CondensedBold",
           "padding": "10",
-          "color": "#fd9040",
+          "color": "#61c5b2",
           "size": "45"
         },
         "normal": {
@@ -39,7 +39,7 @@
           }
         }
       },
-      "background": "#3a2a8a",
+      "background": "#61c5b2",
       "sections": [
         {
           "items": [

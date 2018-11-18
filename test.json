@@ -17,13 +17,7 @@
         "$foreground": {
           "type": "$reload"
         },
-         "send": {
-          "type": "$util.alert",
-          "options": {
-            "title": "Message",
-            "description": "{{$get.message}}"
-          }
-        }
+       
 
           }      
                       
@@ -39,31 +33,7 @@
         "type": "$default"
       }
     },
-      "footer": {
-        "tabs": {
-          "style": {
-            "background": "#ffffff"
-          },
-          "items": [
-            {
-              "image": "https://s3-us-west-2.amazonaws.com/www.jasonclient.org/topsecret%402x.png",
-              "text": "Top Secret",
-              "url": "https://raw.githubusercontent.com/overdrive69/testboni/master/test.json"
-            },
-            {
-              "image": "https://s3-us-west-2.amazonaws.com/fm.ethan.jason/info%402x.png",
-              "text": "Info",
-              "badge": "2",
-              "url": "https://raw.githubusercontent.com/overdrive69/testboni/master/test2.json"
-            },
-            {
-              "image": "https://s3-us-west-2.amazonaws.com/fm.ethan.jason/apps%402x.png",
-              "text": "Collection",
-              "url": "https://raw.githubusercontent.com/overdrive69/testboni/master/test3.json"
-            }
-          ]
-        }
-      }
-    }
+  
   }
+}
 }

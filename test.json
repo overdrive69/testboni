@@ -7,8 +7,8 @@
       "actions": {
         "$foreground": {
           "type": "$reload"
-        },
-       }      
+        }
+       },      
                       
     },
 	

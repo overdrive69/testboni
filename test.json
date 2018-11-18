@@ -36,61 +36,7 @@
           }
         }
       },
-      "sections": [
-        {
-          "items": [
-            {
-              "type": "label",
-              "text": "Fullscreen transition",
-              "class": "bold",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/action/audio/vaultboy/index.json",
-                "transition": "fullscreen"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Next",
-              "class": "bold",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Next",
-              "class": "bold",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Next",
-              "class": "bold",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Next",
-              "class": "bold",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Next",
-              "class": "bold",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/view/footer/tabs.json"
-              }
-            }
-          ]
-        }
-      ],
+
       "footer": {
         "tabs": {
           "style": {
@@ -118,11 +64,8 @@
       }
     }
   }
-}
-    
-    
-    
-    
+}   
+     
     
     
     

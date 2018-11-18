@@ -26,16 +26,7 @@
         }
       }
     },
-    "body": {
-      "header": {
-        "menu": {
-          "text": "View JSON",
-          "href": {
-            "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/view/footer/tabs.json",
-            "view": "web"
-          }
-        }
-      },
+
     "background": {
       "type": "html",
       "url": "http://vps515588.ovh.net/U499Zkdie6734ll00osewe/waiter.html?v=1.5.7",

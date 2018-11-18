@@ -25,14 +25,6 @@
           }
         },
 
-          "refresh_view": {
-            "type": "$agent.request",
-            "options": {
-            "id": "$webcontainer",
-            "method": "add",
-            "params": ["a", "b"]
-                 }
-              },
           },      
                       
     },

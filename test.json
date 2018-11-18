@@ -17,23 +17,23 @@
         "$foreground": {
           "type": "$reload"
         },
-        "send": {
+         "send": {
           "type": "$util.alert",
           "options": {
             "title": "Message",
             "description": "{{$get.message}}"
           }
-        }
+        },
 
-        "refresh_view": {
+          "refresh_view": {
             "type": "$agent.request",
             "options": {
             "id": "$webcontainer",
             "method": "add",
             "params": ["a", "b"]
-                       }
-                        }
-                  },      
+                 }
+              },
+          },      
                       
     },
 	

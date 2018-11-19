@@ -1,108 +1,18 @@
-{
-  "$jason": {
-    "head": {
-      "title": "bonifix",
-      "actions": {
-        "call_menu": {
-          "type": "$agent.request",
-          "options": {
-            "id": "$webcontainer",
-            "method": "moduleForward",
-            "params": [
-              "menu_preferences.html?v=1.5.7"
-            ]
-          }
-        },
-        "call_paydesk": {
-          "type": "$agent.request",
-          "options": {
-            "id": "$webcontainer",
-            "method": "moduleForward",
-            "params": [
-              "menu_paydesk.html?v=1.5.7"
-            ]
-          }
-        },
-        "call_waiter": {
-          "type": "$agent.request",
-          "options": {
-            "id": "$webcontainer",
-            "method": "moduleForward",
-            "params": [
-              "menu_waiter.html?v=1.5.7"
-            ]
-          }
-        }
-      }
-    },
-    "body": {
-      "background": {
+ {
+    "$jason": {
+      "head": {
+        "title": "Bonifix",
+      
+      },
+     "body": {
+       "background": {
         "type": "html",
         "url": "http://vps515588.ovh.net/U499Zkdie6734ll00osewe/waiter.html?v=1.5.7#tables-page",
         "action": {
-          "type": "$default"
+          "trigger": "visit"
         }
-      },
-      "footer": {
-        "tabs": {
-          "style": {
-            "background": "rgba(255,255,255,0.0)",
-            "color:disabled": "#cecece",
-            "color": "#cecece"
-          },
-          "items": [
-            {
-              "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/home.png",
-              "text": "Home",
-              "style": {
-                "height": "21"
-              },
-              "url": "https://jasonbase.com/things/rpbM.json",
-              "action": {
-                "trigger": "call_waiter"
-              }
-            },
-            {
-              "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/notifications.png",
-              "text": "Notifications",
-              "style": {
-                "height": "21"
-              },
-              "action": {
-                "trigger": "call_paydesk"
-              }
-            },
-            {
-              "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/moments.png",
-              "text": "Moments",
-              "style": {
-                "height": "21"
-              },
-              "action": {
-                "trigger": "call_menu"
-              }
-            },
-            {
-              "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/messages.png",
-              "text": "Messages",
-              "style": {
-                "height": "21"
-              },
-              "url": "https://jasonbase.com/things/rpbM.json"
-            },
-            {
-              "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/me.png",
-              "text": "Me",
-              "style": {
-                "height": "21"
-              },
-              "action": {
-                "type": "$back"
-              }
-            }
-          ]
-        }
+       }
+                  
       }
     }
   }
-}

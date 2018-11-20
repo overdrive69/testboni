@@ -1,18 +1,17 @@
-          {
-    "$jason": {
-      "head": {
-        "title": "Bonifix"
-       
-      },
-     "body": {
-       "background": {
+{
+  "$jason": {
+    "head": {
+      "title": "Bonifixtest"
+    },
+    "body": {
+      "background": {
         "type": "html",
         "url": "http://vps515588.ovh.net/U499Zkdie6734ll00osewe/waiter.html?v=1.5.7#tables-page",
         "action": {
           "type": "$default"
         }
-       }
-        "footer": {
+      },
+      "footer": {
         "tabs": {
           "style": {
             "background": "rgba(255,255,255,0.0)",
@@ -30,7 +29,10 @@
               "action": {
                 "trigger": "call_waiter"
               }
-            },          
+            }
+          ]
+        }
       }
     }
   }
+}

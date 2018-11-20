@@ -20,12 +20,12 @@
           },
           "items": [
             {
-              "image": "https://raw.githubusercontent.com/overdrive69/testboni/master/app.json",
+              "image": "https://jasonbase.com/things/rpbM.json",
               "text": "Home",
               "style": {
                 "height": "21"
               },
-              "url": "https://jasonbase.com/things/rpbM.json",
+              "url": "https://raw.githubusercontent.com/overdrive69/testboni/master/app.json",
               "action": {
                 "trigger": "call_waiter"
               }

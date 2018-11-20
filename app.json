@@ -20,7 +20,7 @@
           },
           "items": [
             {
-              "image": "https://jasonbase.com/things/rpbM.json",
+              "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/home.png",
               "text": "Home",
               "style": {
                 "height": "21"
@@ -29,6 +29,22 @@
               "action": {
                 "trigger": "call_waiter"
               }
+            },
+                        {
+              "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/home.png",
+              "text": "Home",
+              "style": {
+                "height": "21"
+              }
+
+            },
+            {
+              "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/notifications.png",
+              "text": "Notifications",
+              "style": {
+                "height": "21"
+              }
+            
             }
           ]
         }

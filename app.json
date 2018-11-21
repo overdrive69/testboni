@@ -11,44 +11,7 @@
           "type": "$default"
         }
       },
-      "footer": {
-        "tabs": {
-          "style": {
-            "background": "rgba(255,255,255,0.0)",
-            "color:disabled": "#cecece",
-            "color": "#cecece"
-          },
-          "items": [
-            {
-              "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/home.png",
-              "text": "Home",
-              "style": {
-                "height": "21"
-              },
-              "url": "https://raw.githubusercontent.com/overdrive69/testboni/master/app.json",
-              "action": {
-                "trigger": "call_waiter"
-              }
-            },
-                        {
-              "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/home.png",
-              "text": "Home",
-              "style": {
-                "height": "21"
-              }
 
-            },
-            {
-              "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/notifications.png",
-              "text": "Notifications",
-              "style": {
-                "height": "21"
-              }
-            
-            }
-          ]
-        }
-      }
     }
   }
 }

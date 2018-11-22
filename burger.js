@@ -1,1 +1,1 @@
-
+document.getElementById('menuswitchtable').click();
